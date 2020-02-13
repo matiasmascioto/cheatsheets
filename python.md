@@ -10,6 +10,9 @@
     + [Windows 10](#windows-10)
     + [Ubuntu 18.04 LTS](#ubuntu-1804-lts)
   * [Optional](#optional)
+- [Python interpreters](#python-interpreters)
+  * [PyPY](#pypy)
+  * [Installation - Windows 10](#installation---windows-10)
 
 
 ## PyCharm
@@ -59,3 +62,17 @@
 - Install *ipykernel* (Jupyter Notebooks): `pip install ipykernel`
 	- ipython kernel install --user --name=KERNEL_NAME
 - Export requirements to file: `pip freeze > requirements.txt`
+
+
+## Python interpreters
+### PyPY
+- Packages compatibility: http://packages.pypy.org/
+
+### Installation - Windows 10
+1. Download binaries: https://www.pypy.org/download.html#
+2. Unzip file
+3. Rename folder to *pypy* (just to simplify)
+4. Move to */pypy*
+5. `pypy3 -m ensurepip`
+6. `pypy3 -m pip install -U pip wheel`
+7. Install any package: `pypy3 -m pip install PyYAML`
