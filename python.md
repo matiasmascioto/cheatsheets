@@ -13,6 +13,8 @@
 - [Python interpreters](#python-interpreters)
   * [PyPY](#pypy)
   * [Installation - Windows 10](#installation---windows-10)
+- [Other tools](#other-tools)
+  * [auto-changelog](#auto-changelog)
 
 
 ## PyCharm
@@ -76,3 +78,7 @@
 5. `pypy3 -m ensurepip`
 6. `pypy3 -m pip install -U pip wheel`
 7. Install any package: `pypy3 -m pip install PyYAML`
+
+## Other tools
+### auto-changelog
+1. Installation and usage: https://github.com/Michael-F-Bryan/auto-changelog
