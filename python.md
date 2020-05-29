@@ -19,7 +19,7 @@
 
 ## PyCharm
 ### Black
-1. Installation guide: https://github.com/psf/black#pycharmintellij-idea
+1. Installation guide: https://github.com/psf/black/blob/master/docs/editor_integration.md#pycharmintellij-idea
 
 ### Flake8
 1. ```pip install flake8```
